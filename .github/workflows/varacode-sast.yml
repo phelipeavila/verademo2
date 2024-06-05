@@ -18,7 +18,7 @@ jobs:
       - name: Maeven build
         run: |
           mvn package -DskipTests -f app/pom.xml
-          chmod -R 755 target
+          chmod -R 755 app/target
       - name: Upload artfacts
         uses: actions/upload-artifact@v3
         with:
@@ -66,4 +66,4 @@ jobs:
     steps:
 
       - name: Maeven clean
-        run: mvn package clean
+        run: mvn clean
