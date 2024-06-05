@@ -27,7 +27,7 @@ jobs:
 
   Veracode-SAST-Pipeline:
     name: Veracode SAST Pipeline
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     needs: [Build]
     strategy:
       fail-fast: true
@@ -59,7 +59,7 @@ jobs:
 
   Clean:
     name: Maeven clean
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     needs: [Veracode-SAST-Pipeline]
     container:
       image: maven:3.9.6-eclipse-temurin-17
