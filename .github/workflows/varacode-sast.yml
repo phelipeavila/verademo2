@@ -17,7 +17,7 @@ jobs:
           persist-credentials: false
       - name: Maeven build
         run: |
-          mvn package -DskipTests
+          mvn package -DskipTests -f app/pom.xml
           chown 1000:1000 -R target
       - name: Upload artfacts
         uses: actions/upload-artifact@v3

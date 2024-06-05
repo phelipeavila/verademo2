@@ -1,4 +1,4 @@
-name: Veracode Demo - Pipeline
+name: Veracode Demo - SCA - Pipeline
 on:
   push:
     branches:
@@ -24,6 +24,7 @@ jobs:
           export SRCCLR_SCM_REV=${{ github.run_id }}
           export SRCCLR_SCM_TYPE="GITHUB"
           export EXTRA_ARGS='--update-advisor --uri-as-name' 
+          export SCAN_DIR="./app"
   
           curl -sSL https://download.sourceclear.com/ci.sh | bash -s -- scan $EXTRA_ARGS
         continue-on-error: true
