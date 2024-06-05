@@ -17,8 +17,8 @@ jobs:
           persist-credentials: false
       - name: Maeven build
         run: |
-          mvn package -DskipTests -f app/pom.xml
-          chown 1000:1000 -R target
+          mvn package -DskipTests
+          chmod -R 755 target
       - name: Upload artfacts
         uses: actions/upload-artifact@v3
         with:
@@ -56,3 +56,14 @@ jobs:
         with:
           name: filtered-results
           path: filtered_results.json
+
+  Clean:
+    name: Maeven clean
+    runs-on: self-hosted
+    needs: [Veracode-SAST-Pipeline]
+    container:
+      image: maven:3.9.6-eclipse-temurin-17
+    steps:
+
+      - name: Maeven clean
+        run: mvn package clean
