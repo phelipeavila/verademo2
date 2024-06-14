@@ -48,6 +48,7 @@ jobs:
       - name: Scan
         run: |
           ## zip -r -v ${{ vars.TARGET_FILE_PATH }} . -i '*.js' '*.html'
+          java -jar /opt/veracode/pipeline-scan.jar -rp "${{ env.POLICY_NAME }}"
           java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" -pn "${{ env.POLICY_NAME }}"
         continue-on-error: true
 
