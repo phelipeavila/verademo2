@@ -36,7 +36,8 @@ jobs:
       fail-fast: true
     env:
       APPLICATION_NAME: Verademo-java-1
-      POLICY_NAME: Policy-test-2
+      # POLICY_NAME: Policy-test-2
+      POLICY_NAME: Veracode Recommended High      
     container:
       image: veracode/pipeline-scan:latest
       options: --user root
