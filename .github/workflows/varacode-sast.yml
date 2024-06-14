@@ -1,8 +1,8 @@
-name: Veracode Demo - SAST - Pipeline
+name: Veracode Demo - SAST - Policy
 on:
   push:
     branches:
-      - pipeline-scan
+      - policy-scan
 
 jobs:
   Build:
@@ -25,7 +25,7 @@ jobs:
           name: artfacts
           path: ${{ vars.TARGET_FILE_PATH }}${{ vars.TARGET_FILE_NAME }}
 
-  Veracode-SAST-Pipeline:
+  Veracode-SAST-Policy:
     name: Veracode SAST Pipeline
     runs-on: ubuntu-latest
     needs: [Build]
@@ -33,9 +33,8 @@ jobs:
       fail-fast: true
     env:
       APPLICATION_NAME: Verademo-java-1
-      POLICY_NAME: Policy-test-2
     container:
-      image: veracode/pipeline-scan:latest
+      image: veracode/api-wrapper-java:latest
       options: --user root
 
     steps:
@@ -48,13 +47,5 @@ jobs:
       - name: Scan
         run: |
           ## zip -r -v ${{ vars.TARGET_FILE_PATH }} . -i '*.js' '*.html'
-          java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -rp "${{ env.POLICY_NAME }}"
-          ## java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" -pn "${{ env.POLICY_NAME }}"
-          java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" --policy_file "${{ env.POLICY_NAME }}.json"
+          java -jar /opt/veracode/api-wrapper.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -action UploadAndScan -deleteincompletescan 2 -createprofile false -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath ${{ vars.TARGET_FILE_NAME }}
         continue-on-error: true
-
-      - name: save filtered results file
-        uses: actions/upload-artifact@v3
-        with:
-          name: filtered-results
-          path: filtered_results.json
