@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: maven:3.9.6-eclipse-temurin-17
+      options: --user root
     steps:
       - name: Checkout https://github.com/${{ github.repository }}@${{ github.ref }}
         uses: actions/checkout@v4
@@ -22,7 +23,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: artfacts
-          path: ${{ vars.TARGET_FILE_NAME }}
+          path: ${{ vars.TARGET_FILE_PATH }}${{ vars.TARGET_FILE_NAME }}
 
   Veracode-SAST-Pipeline:
     name: Veracode SAST Pipeline
@@ -46,7 +47,7 @@ jobs:
 
       - name: Scan
         run: |
-          ## zip -r -v ${{ vars.TARGET_FILE_NAME }} . -i '*.js' '*.html'
+          ## zip -r -v ${{ vars.TARGET_FILE_PATH }} . -i '*.js' '*.html'
           java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" -pn "${{ env.POLICY_NAME }}"
         continue-on-error: true
 
