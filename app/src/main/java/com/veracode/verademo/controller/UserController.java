@@ -905,7 +905,7 @@ public class UserController {
 		MessageDigest md;
 		String ret = null;
 		try {
-			md = MessageDigest.getInstance("MD5");
+			md = MessageDigest.getInstance("SHA-256");
 			md.update(val.getBytes());
 			byte[] digest = md.digest();
 			ret = DatatypeConverter.printHexBinary(digest);
