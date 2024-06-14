@@ -49,7 +49,8 @@ jobs:
         run: |
           ## zip -r -v ${{ vars.TARGET_FILE_PATH }} . -i '*.js' '*.html'
           java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -rp "${{ env.POLICY_NAME }}"
-          java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" -pn "${{ env.POLICY_NAME }}"
+          ## java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" -pn "${{ env.POLICY_NAME }}"
+          java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" --policy_file "${{ env.POLICY_NAME }}.json"
         continue-on-error: true
 
       - name: save filtered results file
