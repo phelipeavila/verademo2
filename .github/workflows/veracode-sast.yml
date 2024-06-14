@@ -90,7 +90,7 @@ jobs:
 
   Veracode-SAST-Sandbox:
     if: github.ref == 'refs/heads/sandbox-scan'
-    name: Veracode SAST Policy
+    name: Veracode SAST Sandbox
     runs-on: ubuntu-latest
     needs: [Build]
     strategy:
