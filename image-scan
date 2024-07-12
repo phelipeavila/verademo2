@@ -1,0 +1,916 @@
+Vulnerabilities
+NAME                           INSTALLED                     FIXED-IN                      TYPE          VULNERABILITY        SEVERITY   
+bash                           5.0-6ubuntu1.1                5.0-6ubuntu1.2                deb           CVE-2019-18276       [0;32mLow[0m         
+bsdutils                       1:2.34-0.1ubuntu9.1           2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+bsdutils                       1:2.34-0.1ubuntu9.1           2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+bsdutils                       1:2.34-0.1ubuntu9.1           2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+ca-certificates                20210119~20.04.1              20211016ubuntu0.20.04.1       deb           CVE-2022-23491       [0;33mMedium[0m      
+commons-collections4           4.0                           4.1                           java-archive  GHSA-fjq5-5j5f-mvxh  [1;31mCritical[0m    
+commons-collections4           4.0                           4.1                           java-archive  GHSA-6hgm-866r-3cjv  [0;31mHigh[0m        
+commons-compress               1.18                          1.21                          java-archive  GHSA-xqfj-vm6h-2x34  [0;31mHigh[0m        
+commons-compress               1.18                          1.21                          java-archive  GHSA-mc84-pj99-q6hh  [0;31mHigh[0m        
+commons-compress               1.18                          1.21                          java-archive  GHSA-crv7-7245-f45f  [0;31mHigh[0m        
+commons-compress               1.18                          1.21                          java-archive  GHSA-7hfm-57qf-j43q  [0;31mHigh[0m        
+commons-compress               1.18                          1.19                          java-archive  GHSA-53x6-4x5p-rrvv  [0;31mHigh[0m        
+commons-compress               1.18                          1.26.0                        java-archive  GHSA-4g9r-vxhx-9pgx  [0;31mHigh[0m        
+commons-compress               1.19                          1.21                          java-archive  GHSA-xqfj-vm6h-2x34  [0;31mHigh[0m        
+commons-compress               1.19                          1.21                          java-archive  GHSA-mc84-pj99-q6hh  [0;31mHigh[0m        
+commons-compress               1.19                          1.21                          java-archive  GHSA-crv7-7245-f45f  [0;31mHigh[0m        
+commons-compress               1.19                          1.21                          java-archive  GHSA-7hfm-57qf-j43q  [0;31mHigh[0m        
+commons-compress               1.19                          1.26.0                        java-archive  GHSA-4g9r-vxhx-9pgx  [0;31mHigh[0m        
+commons-fileupload             1.3.2                         1.3.3                         java-archive  GHSA-7x9j-7223-rg5m  [1;31mCritical[0m    
+commons-fileupload             1.3.2                         1.5                           java-archive  GHSA-hfrx-6qgj-fp6c  [0;31mHigh[0m        
+commons-io                     2.2                           2.7                           java-archive  GHSA-gwrp-pvrq-jmwv  [0;33mMedium[0m      
+commons-io                     2.4                           2.7                           java-archive  GHSA-gwrp-pvrq-jmwv  [0;33mMedium[0m      
+commons-io                     2.5                           2.7                           java-archive  GHSA-gwrp-pvrq-jmwv  [0;33mMedium[0m      
+commons-io                     2.6                           2.7                           java-archive  GHSA-gwrp-pvrq-jmwv  [0;33mMedium[0m      
+coreutils                      8.30-3ubuntu2                                               deb           CVE-2016-2781        [0;32mLow[0m         
+dbus                           1.12.16-2ubuntu2.3                                          deb           CVE-2023-34969       [0;32mLow[0m         
+dirmngr                        2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+dirmngr                        2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+dpkg                           1.19.7ubuntu3                 1.19.7ubuntu3.2               deb           CVE-2022-1664        [0;33mMedium[0m      
+e2fsprogs                      1.45.5-2ubuntu1               1.45.5-2ubuntu1.1             deb           CVE-2022-1304        [0;33mMedium[0m      
+fdisk                          2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+fdisk                          2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+fdisk                          2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+gawk                           1:5.0.1+dfsg-1                1:5.0.1+dfsg-1ubuntu0.1       deb           CVE-2023-4156        [0;33mMedium[0m      
+gcc-10-base                    10.2.0-5ubuntu1~20.04                                       deb           CVE-2023-4039        [0;33mMedium[0m      
+gnupg                          2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gnupg                          2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gnupg-l10n                     2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gnupg-l10n                     2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gnupg-utils                    2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gnupg-utils                    2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gpg                            2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gpg                            2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gpg-agent                      2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gpg-agent                      2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gpg-wks-client                 2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gpg-wks-client                 2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gpg-wks-server                 2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gpg-wks-server                 2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gpgconf                        2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gpgconf                        2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gpgsm                          2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gpgsm                          2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+gpgv                           2.2.19-3ubuntu2.1             2.2.19-3ubuntu2.2             deb           CVE-2022-34903       [0;33mMedium[0m      
+gpgv                           2.2.19-3ubuntu2.1                                           deb           CVE-2022-3219        [0;32mLow[0m         
+guava                          16.0.1                        24.1.1-android                java-archive  GHSA-mvr2-9pj6-7w5j  [0;33mMedium[0m      
+guava                          16.0.1                        32.0.0-android                java-archive  GHSA-7g45-4rm6-3mm3  [0;33mMedium[0m      
+guava                          16.0.1                        32.0.0-android                java-archive  GHSA-5mg8-w23w-74h3  [0;32mLow[0m         
+guava                          19.0                          24.1.1-android                java-archive  GHSA-mvr2-9pj6-7w5j  [0;33mMedium[0m      
+guava                          19.0                          32.0.0-android                java-archive  GHSA-7g45-4rm6-3mm3  [0;33mMedium[0m      
+guava                          19.0                          32.0.0-android                java-archive  GHSA-5mg8-w23w-74h3  [0;32mLow[0m         
+gzip                           1.10-0ubuntu4                 1.10-0ubuntu4.1               deb           CVE-2022-1271        [0;33mMedium[0m      
+httpclient                     4.5.11                        4.5.13                        java-archive  GHSA-7r82-7xv7-xcpj  [0;33mMedium[0m      
+httpclient                     4.5.12                        4.5.13                        java-archive  GHSA-7r82-7xv7-xcpj  [0;33mMedium[0m      
+jackson-databind               2.11.0                        2.12.7.1                      java-archive  GHSA-rgv9-q543-rqg4  [0;31mHigh[0m        
+jackson-databind               2.11.0                        2.12.7.1                      java-archive  GHSA-jjjh-jjxp-wpff  [0;31mHigh[0m        
+jackson-databind               2.11.0                        2.12.6.1                      java-archive  GHSA-57j2-w4cx-62h2  [0;31mHigh[0m        
+jackson-databind               2.11.0                        2.12.6                        java-archive  GHSA-3x8x-79m2-3w2w  [0;31mHigh[0m        
+jbcrypt                        0.3m                          0.4                           java-archive  GHSA-9h6p-92jq-888x  [0;33mMedium[0m      
+jsoup                          1.10.2                        1.14.2                        java-archive  GHSA-m72m-mhq2-9p6c  [0;31mHigh[0m        
+jsoup                          1.10.2                        1.15.3                        java-archive  GHSA-gp7f-rwcx-9369  [0;33mMedium[0m      
+junit                          4.12                          4.13.1                        java-archive  GHSA-269g-pwp5-87pp  [0;33mMedium[0m      
+junit                          4.13                          4.13.1                        java-archive  GHSA-269g-pwp5-87pp  [0;33mMedium[0m      
+keycloak-saml-core             1.8.1.Final                   18.0.0                        java-archive  GHSA-4pc7-vqv5-5r3v  [0;31mHigh[0m        
+krb5-locales                   1.17-6ubuntu4.4                                             deb           CVE-2024-26462       [0;33mMedium[0m      
+krb5-locales                   1.17-6ubuntu4.4                                             deb           CVE-2024-26461       [0;32mLow[0m         
+krb5-locales                   1.17-6ubuntu4.4                                             deb           CVE-2024-26458       [0;34mNegligible[0m  
+libapparmor1                   2.13.3-7ubuntu5.3                                           deb           CVE-2016-1585        [0;33mMedium[0m      
+libasn1-8-heimdal              7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libasn1-8-heimdal              7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libasn1-8-heimdal              7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libasn1-8-heimdal              7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libasn1-8-heimdal              7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libasn1-8-heimdal              7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libasn1-8-heimdal              7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libasn1-8-heimdal              7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libblkid1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+libblkid1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+libblkid1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.16              deb           CVE-2024-33602       [0;33mMedium[0m      
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.16              deb           CVE-2024-33601       [0;33mMedium[0m      
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.16              deb           CVE-2024-33600       [0;33mMedium[0m      
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.16              deb           CVE-2024-33599       [0;33mMedium[0m      
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.15              deb           CVE-2024-2961        [0;33mMedium[0m      
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2021-3999        [0;33mMedium[0m      
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.14              deb           CVE-2023-4813        [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.14              deb           CVE-2023-4806        [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2022-23219       [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2022-23218       [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2021-35942       [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2021-3326        [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2021-27645       [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2020-6096        [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2020-29562       [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2020-27618       [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2019-25013       [0;32mLow[0m         
+libc-bin                       2.31-0ubuntu9.2                                             deb           CVE-2016-20013       [0;34mNegligible[0m  
+libc-bin                       2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2016-10228       [0;34mNegligible[0m  
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.16              deb           CVE-2024-33602       [0;33mMedium[0m      
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.16              deb           CVE-2024-33601       [0;33mMedium[0m      
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.16              deb           CVE-2024-33600       [0;33mMedium[0m      
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.16              deb           CVE-2024-33599       [0;33mMedium[0m      
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.15              deb           CVE-2024-2961        [0;33mMedium[0m      
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2021-3999        [0;33mMedium[0m      
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.14              deb           CVE-2023-4813        [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.14              deb           CVE-2023-4806        [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2022-23219       [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2022-23218       [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2021-35942       [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2021-3326        [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2021-27645       [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2020-6096        [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2020-29562       [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2020-27618       [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2019-25013       [0;32mLow[0m         
+libc6                          2.31-0ubuntu9.2                                             deb           CVE-2016-20013       [0;34mNegligible[0m  
+libc6                          2.31-0ubuntu9.2               2.31-0ubuntu9.7               deb           CVE-2016-10228       [0;34mNegligible[0m  
+libcap2                        1:2.32-1                      1:2.32-1ubuntu0.1             deb           CVE-2023-2603        [0;33mMedium[0m      
+libcap2                        1:2.32-1                      1:2.32-1ubuntu0.1             deb           CVE-2023-2602        [0;32mLow[0m         
+libcap2-bin                    1:2.32-1                      1:2.32-1ubuntu0.1             deb           CVE-2023-2603        [0;33mMedium[0m      
+libcap2-bin                    1:2.32-1                      1:2.32-1ubuntu0.1             deb           CVE-2023-2602        [0;32mLow[0m         
+libcom-err2                    1.45.5-2ubuntu1               1.45.5-2ubuntu1.1             deb           CVE-2022-1304        [0;33mMedium[0m      
+libcups2                       2.3.1-9ubuntu1.6                                            deb           CVE-2024-35235       [0;33mMedium[0m      
+libdbi-perl                    1.643-1                       1.643-1ubuntu0.1              deb           CVE-2014-10402       [0;33mMedium[0m      
+libdbus-1-3                    1.12.16-2ubuntu2.3                                          deb           CVE-2023-34969       [0;32mLow[0m         
+libelf1                        0.176-1.1build1               0.176-1.1ubuntu0.1            deb           CVE-2020-21047       [0;33mMedium[0m      
+libelf1                        0.176-1.1build1                                             deb           CVE-2024-25260       [0;32mLow[0m         
+libelf1                        0.176-1.1build1               0.176-1.1ubuntu0.1            deb           CVE-2021-33294       [0;32mLow[0m         
+libext2fs2                     1.45.5-2ubuntu1               1.45.5-2ubuntu1.1             deb           CVE-2022-1304        [0;33mMedium[0m      
+libfdisk1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+libfdisk1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+libfdisk1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+libgcc-s1                      10.2.0-5ubuntu1~20.04                                       deb           CVE-2023-4039        [0;33mMedium[0m      
+libgcrypt20                    1.8.5-5ubuntu1                                              deb           CVE-2024-2236        [0;33mMedium[0m      
+libgcrypt20                    1.8.5-5ubuntu1                1.8.5-5ubuntu1.1              deb           CVE-2021-40528       [0;33mMedium[0m      
+libgcrypt20                    1.8.5-5ubuntu1                1.8.5-5ubuntu1.1              deb           CVE-2021-33560       [0;32mLow[0m         
+libgmp10                       2:6.2.0+dfsg-4                2:6.2.0+dfsg-4ubuntu0.1       deb           CVE-2021-43618       [0;32mLow[0m         
+libgnutls30                    3.6.13-2ubuntu1.3             3.6.13-2ubuntu1.11            deb           CVE-2024-28834       [0;33mMedium[0m      
+libgnutls30                    3.6.13-2ubuntu1.3             3.6.13-2ubuntu1.10            deb           CVE-2024-0553        [0;33mMedium[0m      
+libgnutls30                    3.6.13-2ubuntu1.3             3.6.13-2ubuntu1.9             deb           CVE-2023-5981        [0;33mMedium[0m      
+libgnutls30                    3.6.13-2ubuntu1.3             3.6.13-2ubuntu1.8             deb           CVE-2023-0361        [0;33mMedium[0m      
+libgnutls30                    3.6.13-2ubuntu1.3             3.6.13-2ubuntu1.7             deb           CVE-2022-2509        [0;33mMedium[0m      
+libgnutls30                    3.6.13-2ubuntu1.3             3.6.13-2ubuntu1.7             deb           CVE-2021-4209        [0;32mLow[0m         
+libgnutls30                    3.6.13-2ubuntu1.3             3.6.13-2ubuntu1.6             deb           CVE-2021-20232       [0;32mLow[0m         
+libgnutls30                    3.6.13-2ubuntu1.3             3.6.13-2ubuntu1.6             deb           CVE-2021-20231       [0;32mLow[0m         
+libgssapi-krb5-2               1.17-6ubuntu4.4                                             deb           CVE-2024-26462       [0;33mMedium[0m      
+libgssapi-krb5-2               1.17-6ubuntu4.4                                             deb           CVE-2024-26461       [0;32mLow[0m         
+libgssapi-krb5-2               1.17-6ubuntu4.4                                             deb           CVE-2024-26458       [0;34mNegligible[0m  
+libgssapi3-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libgssapi3-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libgssapi3-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libgssapi3-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libgssapi3-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libgssapi3-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libgssapi3-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libgssapi3-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libguava-java                  19.0-1                                                      deb           CVE-2023-2976        [0;33mMedium[0m      
+libguava-java                  19.0-1                                                      deb           CVE-2020-8908        [0;33mMedium[0m      
+libguava-java                  19.0-1                                                      deb           CVE-2018-10237       [0;33mMedium[0m      
+libhcrypto4-heimdal            7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libhcrypto4-heimdal            7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libhcrypto4-heimdal            7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libhcrypto4-heimdal            7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libhcrypto4-heimdal            7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libhcrypto4-heimdal            7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libhcrypto4-heimdal            7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libhcrypto4-heimdal            7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libheimbase1-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libheimbase1-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libheimbase1-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libheimbase1-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libheimbase1-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libheimbase1-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libheimbase1-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libheimbase1-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libheimntlm0-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libheimntlm0-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libheimntlm0-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libheimntlm0-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libheimntlm0-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libheimntlm0-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libheimntlm0-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libheimntlm0-heimdal           7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libhogweed5                    3.5.1+really3.5.1-2ubuntu0.1  3.5.1+really3.5.1-2ubuntu0.2  deb           CVE-2021-3580        [0;33mMedium[0m      
+libhx509-5-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libhx509-5-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libhx509-5-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libhx509-5-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libhx509-5-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libhx509-5-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libhx509-5-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libhx509-5-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libk5crypto3                   1.17-6ubuntu4.4                                             deb           CVE-2024-26462       [0;33mMedium[0m      
+libk5crypto3                   1.17-6ubuntu4.4                                             deb           CVE-2024-26461       [0;32mLow[0m         
+libk5crypto3                   1.17-6ubuntu4.4                                             deb           CVE-2024-26458       [0;34mNegligible[0m  
+libkrb5-26-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libkrb5-26-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libkrb5-26-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libkrb5-26-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libkrb5-26-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libkrb5-26-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libkrb5-26-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libkrb5-26-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libkrb5-3                      1.17-6ubuntu4.4                                             deb           CVE-2024-26462       [0;33mMedium[0m      
+libkrb5-3                      1.17-6ubuntu4.4                                             deb           CVE-2024-26461       [0;32mLow[0m         
+libkrb5-3                      1.17-6ubuntu4.4                                             deb           CVE-2024-26458       [0;34mNegligible[0m  
+libkrb5support0                1.17-6ubuntu4.4                                             deb           CVE-2024-26462       [0;33mMedium[0m      
+libkrb5support0                1.17-6ubuntu4.4                                             deb           CVE-2024-26461       [0;32mLow[0m         
+libkrb5support0                1.17-6ubuntu4.4                                             deb           CVE-2024-26458       [0;34mNegligible[0m  
+libksba8                       1.3.5-2                       1.3.5-2ubuntu0.20.04.1        deb           CVE-2022-3515        [0;31mHigh[0m        
+libksba8                       1.3.5-2                       1.3.5-2ubuntu0.20.04.2        deb           CVE-2022-47629       [0;33mMedium[0m      
+libldap-2.4-2                  2.4.49+dfsg-2ubuntu1.8        2.4.49+dfsg-2ubuntu1.9        deb           CVE-2022-29155       [0;33mMedium[0m      
+libldap-2.4-2                  2.4.49+dfsg-2ubuntu1.8        2.4.49+dfsg-2ubuntu1.10       deb           CVE-2023-2953        [0;32mLow[0m         
+libldap-common                 2.4.49+dfsg-2ubuntu1.8        2.4.49+dfsg-2ubuntu1.9        deb           CVE-2022-29155       [0;33mMedium[0m      
+libldap-common                 2.4.49+dfsg-2ubuntu1.8        2.4.49+dfsg-2ubuntu1.10       deb           CVE-2023-2953        [0;32mLow[0m         
+liblzma5                       5.2.4-1ubuntu1                5.2.4-1ubuntu1.1              deb           CVE-2022-1271        [0;33mMedium[0m      
+liblzma5                       5.2.4-1ubuntu1                                              deb           CVE-2020-22916       [0;33mMedium[0m      
+libmaven3-core-java            3.6.3-1ubuntu0.1                                            deb           CVE-2021-26291       [0;33mMedium[0m      
+libmount1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+libmount1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+libmount1                      2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21102       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21096       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21087       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21069       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21062       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-21061       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21060       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-21057       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2024-21056       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-21055       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21054       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2024-21053       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2024-21052       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2024-21051       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2024-21050       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2024-21049       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21047       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2024-21015       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21013       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21009       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21008       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-21000       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-20998       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.37-0ubuntu0.20.04.3       deb           CVE-2024-20994       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20993       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20985       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20984       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20983       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20982       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20981       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20978       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20977       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20976       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20974       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20973       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20972       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20971       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20970       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20969       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2024-20968       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20967       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20966       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20965       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20964       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20963       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20962       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20961       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.36-0ubuntu0.20.04.1       deb           CVE-2024-20960       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22115       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22114       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22113       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22112       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22111       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22110       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-22104       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22103       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22097       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22092       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22084       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22079       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22078       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22070       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22068       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22066       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22065       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22064       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22059       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22058       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22057       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22056       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22054       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22053       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22048       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22046       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22038       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22033       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.35-0ubuntu0.20.04.1       deb           CVE-2023-22032       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-22028       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-22026       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-22015       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22008       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-22007       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.34-0ubuntu0.20.04.1       deb           CVE-2023-22005       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21982       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21980       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21977       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21976       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21972       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21966       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21963       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21962       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21955       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21953       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2023-21950       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21947       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21946       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21945       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21940       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21935       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21933       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21929       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21920       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21919       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2023-21917       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21913       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2023-21912       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.33-0ubuntu0.20.04.1       deb           CVE-2023-21911       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21887       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21883       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21882       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21881       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21880       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21879       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21878       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21877       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21876       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21875       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2023-21874       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21873       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2023-21872       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21871       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21870       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21869       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21868       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21867       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2023-21866       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2023-21865       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2023-21864       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21863       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.32-0buntu0.20.04.1        deb           CVE-2023-21836       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-39410       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-39408       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-39400       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21641       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21640       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21638       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21637       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21635       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21633       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21632       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21625       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21617       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21611       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21608       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21607       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21605       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21604       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21600       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21599       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21595       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.31-0ubuntu0.20.04.1       deb           CVE-2022-21594       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21592       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21569       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21556       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21553       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21547       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21539       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21528       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21527       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21509       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21479       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21478       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21462       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21460       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21459       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21457       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21455       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21454       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21452       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21451       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21444       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21440       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21438       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21437       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21436       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21435       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21427       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21425       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21423       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21418       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21417       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21415       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21414       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21413       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.29-0ubuntu0.20.04.2       deb           CVE-2022-21412       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21379       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21378       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21374       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21372       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21370       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21368       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21367       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21362       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21358       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2022-21352       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21351       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21348       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21344       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21342       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21339       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21304       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21303       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21302       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21301       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2022-21297       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2022-21278       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21270       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21265       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21264       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21256       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21254       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21253       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21249       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.28-0ubuntu0.20.04.3       deb           CVE-2022-21245       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35648       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35647       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35646       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35645       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35644       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35643       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35642       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35641       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35640       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35639       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35638       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35637       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35636       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35635       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35634       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35633       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35632       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35631       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35630       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-35629       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35628       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35627       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35626       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35625       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35624       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35623       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35622       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35613       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35612       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35610       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35608       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35607       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35604       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35602       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35597       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35596       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35591       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35584       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-35583       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35577       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35575       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-35546       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-35537       [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-2481        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-2479        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-2478        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.27-0ubuntu0.20.04.1       deb           CVE-2021-2471        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2441        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2440        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2437        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2429        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2427        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2426        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2425        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2424        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2422        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2418        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2417        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2410        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2402        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2399        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2390        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2389        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2387        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2385        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2384        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2383        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2374        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2372        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2370        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2367        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2357        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2356        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2354        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2352        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2342        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2340        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.26-0ubuntu0.20.04.2       deb           CVE-2021-2339        [0;33mMedium[0m      
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21538       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21537       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21534       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21531       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21530       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21529       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21526       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21525       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21522       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21517       [0;32mLow[0m         
+libmysqlclient21               8.0.25-0ubuntu0.20.04.1       8.0.30-0ubuntu0.20.04.2       deb           CVE-2022-21515       [0;32mLow[0m         
+libncurses6                    6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2023-29491       [0;33mMedium[0m      
+libncurses6                    6.2-0ubuntu2                                                deb           CVE-2023-50495       [0;32mLow[0m         
+libncurses6                    6.2-0ubuntu2                                                deb           CVE-2023-45918       [0;32mLow[0m         
+libncurses6                    6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2022-29458       [0;34mNegligible[0m  
+libncurses6                    6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2021-39537       [0;34mNegligible[0m  
+libncursesw6                   6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2023-29491       [0;33mMedium[0m      
+libncursesw6                   6.2-0ubuntu2                                                deb           CVE-2023-50495       [0;32mLow[0m         
+libncursesw6                   6.2-0ubuntu2                                                deb           CVE-2023-45918       [0;32mLow[0m         
+libncursesw6                   6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2022-29458       [0;34mNegligible[0m  
+libncursesw6                   6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2021-39537       [0;34mNegligible[0m  
+libnettle7                     3.5.1+really3.5.1-2ubuntu0.1  3.5.1+really3.5.1-2ubuntu0.2  deb           CVE-2021-3580        [0;33mMedium[0m      
+libpam-cap                     1:2.32-1                      1:2.32-1ubuntu0.1             deb           CVE-2023-2603        [0;33mMedium[0m      
+libpam-cap                     1:2.32-1                      1:2.32-1ubuntu0.1             deb           CVE-2023-2602        [0;32mLow[0m         
+libpam-modules                 1.3.1-5ubuntu4.2              1.3.1-5ubuntu4.7              deb           CVE-2024-22365       [0;33mMedium[0m      
+libpam-modules                 1.3.1-5ubuntu4.2              1.3.1-5ubuntu4.4              deb           CVE-2022-28321       [0;34mNegligible[0m  
+libpam-modules-bin             1.3.1-5ubuntu4.2              1.3.1-5ubuntu4.7              deb           CVE-2024-22365       [0;33mMedium[0m      
+libpam-modules-bin             1.3.1-5ubuntu4.2              1.3.1-5ubuntu4.4              deb           CVE-2022-28321       [0;34mNegligible[0m  
+libpam-runtime                 1.3.1-5ubuntu4.2              1.3.1-5ubuntu4.7              deb           CVE-2024-22365       [0;33mMedium[0m      
+libpam-runtime                 1.3.1-5ubuntu4.2              1.3.1-5ubuntu4.4              deb           CVE-2022-28321       [0;34mNegligible[0m  
+libpam0g                       1.3.1-5ubuntu4.2              1.3.1-5ubuntu4.7              deb           CVE-2024-22365       [0;33mMedium[0m      
+libpam0g                       1.3.1-5ubuntu4.2              1.3.1-5ubuntu4.4              deb           CVE-2022-28321       [0;34mNegligible[0m  
+libpcre2-8-0                   10.34-7                                                     deb           CVE-2022-41409       [0;32mLow[0m         
+libpcre2-8-0                   10.34-7                       10.34-7ubuntu0.1              deb           CVE-2022-1587        [0;32mLow[0m         
+libpcre2-8-0                   10.34-7                       10.34-7ubuntu0.1              deb           CVE-2022-1586        [0;32mLow[0m         
+libpcre3                       2:8.39-12build1               2:8.39-12ubuntu0.1            deb           CVE-2019-20838       [0;32mLow[0m         
+libpcre3                       2:8.39-12build1               2:8.39-12ubuntu0.1            deb           CVE-2020-14155       [0;34mNegligible[0m  
+libpcre3                       2:8.39-12build1                                             deb           CVE-2017-11164       [0;34mNegligible[0m  
+libperl5.30                    5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.5             deb           CVE-2023-47038       [0;33mMedium[0m      
+libperl5.30                    5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.4             deb           CVE-2023-31484       [0;33mMedium[0m      
+libperl5.30                    5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.3             deb           CVE-2020-16156       [0;33mMedium[0m      
+libpng16-16                    1.6.37-2                                                    deb           CVE-2022-3857        [0;32mLow[0m         
+libprocps8                     2:3.3.16-1ubuntu2.1           2:3.3.16-1ubuntu2.4           deb           CVE-2023-4016        [0;32mLow[0m         
+libroken18-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libroken18-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libroken18-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libroken18-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libroken18-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libroken18-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libroken18-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libroken18-heimdal             7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libsasl2-2                     2.1.27+dfsg-2                 2.1.27+dfsg-2ubuntu0.1        deb           CVE-2022-24407       [0;31mHigh[0m        
+libsasl2-modules-db            2.1.27+dfsg-2                 2.1.27+dfsg-2ubuntu0.1        deb           CVE-2022-24407       [0;31mHigh[0m        
+libsepol1                      3.0-1                         3.0-1ubuntu0.1                deb           CVE-2021-36087       [0;32mLow[0m         
+libsepol1                      3.0-1                         3.0-1ubuntu0.1                deb           CVE-2021-36086       [0;32mLow[0m         
+libsepol1                      3.0-1                         3.0-1ubuntu0.1                deb           CVE-2021-36085       [0;32mLow[0m         
+libsepol1                      3.0-1                         3.0-1ubuntu0.1                deb           CVE-2021-36084       [0;32mLow[0m         
+libsmartcols1                  2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+libsmartcols1                  2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+libsmartcols1                  2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+libsqlite3-0                   3.31.1-4ubuntu0.2             3.31.1-4ubuntu0.6             deb           CVE-2023-7104        [0;33mMedium[0m      
+libsqlite3-0                   3.31.1-4ubuntu0.2             3.31.1-4ubuntu0.5             deb           CVE-2022-35737       [0;33mMedium[0m      
+libsqlite3-0                   3.31.1-4ubuntu0.2             3.31.1-4ubuntu0.4             deb           CVE-2020-35527       [0;33mMedium[0m      
+libsqlite3-0                   3.31.1-4ubuntu0.2             3.31.1-4ubuntu0.4             deb           CVE-2020-35525       [0;33mMedium[0m      
+libsqlite3-0                   3.31.1-4ubuntu0.2             3.31.1-4ubuntu0.3             deb           CVE-2021-36690       [0;34mNegligible[0m  
+libss2                         1.45.5-2ubuntu1               1.45.5-2ubuntu1.1             deb           CVE-2022-1304        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.17            deb           CVE-2023-0286        [0;31mHigh[0m        
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.12            deb           CVE-2022-0778        [0;31mHigh[0m        
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.8             deb           CVE-2021-3711        [0;31mHigh[0m        
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.19            deb           CVE-2023-2650        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.17            deb           CVE-2023-0215        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.17            deb           CVE-2022-4450        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.17            deb           CVE-2022-4304        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.16            deb           CVE-2022-2097        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.15            deb           CVE-2022-2068        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.13            deb           CVE-2022-1292        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.8             deb           CVE-2021-3712        [0;33mMedium[0m      
+libssl1.1                      1.1.1f-1ubuntu2.4                                           deb           CVE-2024-4741        [0;32mLow[0m         
+libssl1.1                      1.1.1f-1ubuntu2.4                                           deb           CVE-2024-2511        [0;32mLow[0m         
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.21            deb           CVE-2024-0727        [0;32mLow[0m         
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.21            deb           CVE-2023-5678        [0;32mLow[0m         
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.20            deb           CVE-2023-3817        [0;32mLow[0m         
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.20            deb           CVE-2023-3446        [0;32mLow[0m         
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.18            deb           CVE-2023-0465        [0;32mLow[0m         
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.18            deb           CVE-2023-0464        [0;32mLow[0m         
+libssl1.1                      1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.18            deb           CVE-2023-0466        [0;34mNegligible[0m  
+libstdc++6                     10.2.0-5ubuntu1~20.04                                       deb           CVE-2023-4039        [0;33mMedium[0m      
+libsystemd0                    245.4-4ubuntu3.6              245.4-4ubuntu3.10             deb           CVE-2021-33910       [0;31mHigh[0m        
+libsystemd0                    245.4-4ubuntu3.6              245.4-4ubuntu3.20             deb           CVE-2022-4415        [0;33mMedium[0m      
+libsystemd0                    245.4-4ubuntu3.6              245.4-4ubuntu3.20             deb           CVE-2022-3821        [0;33mMedium[0m      
+libsystemd0                    245.4-4ubuntu3.6              245.4-4ubuntu3.15             deb           CVE-2021-3997        [0;33mMedium[0m      
+libsystemd0                    245.4-4ubuntu3.6                                            deb           CVE-2023-7008        [0;32mLow[0m         
+libsystemd0                    245.4-4ubuntu3.6                                            deb           CVE-2023-26604       [0;32mLow[0m         
+libsystemd0                    245.4-4ubuntu3.6              245.4-4ubuntu3.10             deb           CVE-2020-13529       [0;32mLow[0m         
+libtasn1-6                     4.16.0-2                                                    deb           CVE-2021-46848       [0;32mLow[0m         
+libtinfo6                      6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2023-29491       [0;33mMedium[0m      
+libtinfo6                      6.2-0ubuntu2                                                deb           CVE-2023-50495       [0;32mLow[0m         
+libtinfo6                      6.2-0ubuntu2                                                deb           CVE-2023-45918       [0;32mLow[0m         
+libtinfo6                      6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2022-29458       [0;34mNegligible[0m  
+libtinfo6                      6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2021-39537       [0;34mNegligible[0m  
+libudev1                       245.4-4ubuntu3.6              245.4-4ubuntu3.10             deb           CVE-2021-33910       [0;31mHigh[0m        
+libudev1                       245.4-4ubuntu3.6              245.4-4ubuntu3.20             deb           CVE-2022-4415        [0;33mMedium[0m      
+libudev1                       245.4-4ubuntu3.6              245.4-4ubuntu3.20             deb           CVE-2022-3821        [0;33mMedium[0m      
+libudev1                       245.4-4ubuntu3.6              245.4-4ubuntu3.15             deb           CVE-2021-3997        [0;33mMedium[0m      
+libudev1                       245.4-4ubuntu3.6                                            deb           CVE-2023-7008        [0;32mLow[0m         
+libudev1                       245.4-4ubuntu3.6                                            deb           CVE-2023-26604       [0;32mLow[0m         
+libudev1                       245.4-4ubuntu3.6              245.4-4ubuntu3.10             deb           CVE-2020-13529       [0;32mLow[0m         
+libuuid1                       2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+libuuid1                       2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+libuuid1                       2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+libwind0-heimdal               7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.4         deb           CVE-2022-45142       [0;33mMedium[0m      
+libwind0-heimdal               7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-44640       [0;33mMedium[0m      
+libwind0-heimdal               7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-42898       [0;33mMedium[0m      
+libwind0-heimdal               7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.2         deb           CVE-2022-41916       [0;33mMedium[0m      
+libwind0-heimdal               7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2022-3437        [0;33mMedium[0m      
+libwind0-heimdal               7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2022-3116        [0;33mMedium[0m      
+libwind0-heimdal               7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.3         deb           CVE-2021-44758       [0;33mMedium[0m      
+libwind0-heimdal               7.7.0+dfsg-1ubuntu1           7.7.0+dfsg-1ubuntu1.1         deb           CVE-2021-3671        [0;32mLow[0m         
+libxtables12                   1.8.4-3ubuntu2                                              deb           CVE-2020-0347        [0;32mLow[0m         
+log4j                          1.2.17                                                      java-archive  GHSA-f7vh-qwp3-x37m  [1;31mCritical[0m    
+log4j                          1.2.17                                                      java-archive  GHSA-65fg-84f6-3jq3  [1;31mCritical[0m    
+log4j                          1.2.17                                                      java-archive  GHSA-2qrg-x229-3v8q  [1;31mCritical[0m    
+log4j                          1.2.17                                                      java-archive  GHSA-w9p3-5cr8-m3jj  [0;31mHigh[0m        
+log4j                          1.2.17                                                      java-archive  GHSA-fp5r-v3w9-4333  [0;31mHigh[0m        
+logback-classic                1.2.3                         1.2.13                        java-archive  GHSA-vmq6-5m68-f53m  [0;31mHigh[0m        
+logback-core                   1.2.3                         1.2.13                        java-archive  GHSA-vmq6-5m68-f53m  [0;31mHigh[0m        
+logback-core                   1.2.3                         1.2.9                         java-archive  GHSA-668q-qrv7-99fm  [0;33mMedium[0m      
+login                          1:4.8.1-1ubuntu5.20.04        1:4.8.1-1ubuntu5.20.04.5      deb           CVE-2023-4641        [0;32mLow[0m         
+login                          1:4.8.1-1ubuntu5.20.04                                      deb           CVE-2023-29383       [0;32mLow[0m         
+login                          1:4.8.1-1ubuntu5.20.04                                      deb           CVE-2013-4235        [0;32mLow[0m         
+logsave                        1.45.5-2ubuntu1               1.45.5-2ubuntu1.1             deb           CVE-2022-1304        [0;33mMedium[0m      
+maven                          3.6.3-1ubuntu0.1                                            deb           CVE-2021-26291       [0;33mMedium[0m      
+maven-compat                   3.6.3                         3.8.1                         java-archive  GHSA-2f88-5hg8-9x2x  [1;31mCritical[0m    
+maven-core                     2.2.1                         3.8.1                         java-archive  GHSA-2f88-5hg8-9x2x  [1;31mCritical[0m    
+maven-core                     3.0                           3.8.1                         java-archive  GHSA-2f88-5hg8-9x2x  [1;31mCritical[0m    
+maven-core                     3.6.3                         3.8.1                         java-archive  GHSA-2f88-5hg8-9x2x  [1;31mCritical[0m    
+maven-shared-utils             0.9                           3.3.3                         java-archive  GHSA-rhgr-952r-6p8q  [1;31mCritical[0m    
+maven-shared-utils             3.0.0                         3.3.3                         java-archive  GHSA-rhgr-952r-6p8q  [1;31mCritical[0m    
+maven-shared-utils             3.1.0                         3.3.3                         java-archive  GHSA-rhgr-952r-6p8q  [1;31mCritical[0m    
+maven-shared-utils             3.2.1                         3.3.3                         java-archive  GHSA-rhgr-952r-6p8q  [1;31mCritical[0m    
+maven-shared-utils             3.3.0                         3.3.3                         java-archive  GHSA-rhgr-952r-6p8q  [1;31mCritical[0m    
+mount                          2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+mount                          2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+mount                          2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+ncurses-base                   6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2023-29491       [0;33mMedium[0m      
+ncurses-base                   6.2-0ubuntu2                                                deb           CVE-2023-50495       [0;32mLow[0m         
+ncurses-base                   6.2-0ubuntu2                                                deb           CVE-2023-45918       [0;32mLow[0m         
+ncurses-base                   6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2022-29458       [0;34mNegligible[0m  
+ncurses-base                   6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2021-39537       [0;34mNegligible[0m  
+ncurses-bin                    6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2023-29491       [0;33mMedium[0m      
+ncurses-bin                    6.2-0ubuntu2                                                deb           CVE-2023-50495       [0;32mLow[0m         
+ncurses-bin                    6.2-0ubuntu2                                                deb           CVE-2023-45918       [0;32mLow[0m         
+ncurses-bin                    6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2022-29458       [0;34mNegligible[0m  
+ncurses-bin                    6.2-0ubuntu2                  6.2-0ubuntu2.1                deb           CVE-2021-39537       [0;34mNegligible[0m  
+openjdk-8-jdk-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21098       [0;33mMedium[0m      
+openjdk-8-jdk-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21005       [0;33mMedium[0m      
+openjdk-8-jdk-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21004       [0;33mMedium[0m      
+openjdk-8-jdk-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21003       [0;33mMedium[0m      
+openjdk-8-jdk-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21002       [0;33mMedium[0m      
+openjdk-8-jre-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21098       [0;33mMedium[0m      
+openjdk-8-jre-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21005       [0;33mMedium[0m      
+openjdk-8-jre-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21004       [0;33mMedium[0m      
+openjdk-8-jre-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21003       [0;33mMedium[0m      
+openjdk-8-jre-headless         8u412-ga-1~20.04.1                                          deb           CVE-2024-21002       [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.17            deb           CVE-2023-0286        [0;31mHigh[0m        
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.12            deb           CVE-2022-0778        [0;31mHigh[0m        
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.8             deb           CVE-2021-3711        [0;31mHigh[0m        
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.19            deb           CVE-2023-2650        [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.17            deb           CVE-2023-0215        [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.17            deb           CVE-2022-4450        [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.17            deb           CVE-2022-4304        [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.16            deb           CVE-2022-2097        [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.15            deb           CVE-2022-2068        [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.13            deb           CVE-2022-1292        [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.8             deb           CVE-2021-3712        [0;33mMedium[0m      
+openssl                        1.1.1f-1ubuntu2.4                                           deb           CVE-2024-4741        [0;32mLow[0m         
+openssl                        1.1.1f-1ubuntu2.4                                           deb           CVE-2024-2511        [0;32mLow[0m         
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.21            deb           CVE-2024-0727        [0;32mLow[0m         
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.21            deb           CVE-2023-5678        [0;32mLow[0m         
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.20            deb           CVE-2023-3817        [0;32mLow[0m         
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.20            deb           CVE-2023-3446        [0;32mLow[0m         
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.18            deb           CVE-2023-0465        [0;32mLow[0m         
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.18            deb           CVE-2023-0464        [0;32mLow[0m         
+openssl                        1.1.1f-1ubuntu2.4             1.1.1f-1ubuntu2.18            deb           CVE-2023-0466        [0;34mNegligible[0m  
+org.apache.sling.api           2.0.2-incubator               2.2.2                         java-archive  GHSA-rxvx-44w5-44r7  [0;33mMedium[0m      
+org.apache.sling.api           2.0.2-incubator                                             java-archive  GHSA-qmx3-m648-hr74  [0;33mMedium[0m      
+org.apache.sling.api           2.0.2-incubator               2.4.0                         java-archive  GHSA-cxwh-vmhg-39r2  [0;33mMedium[0m      
+org.apache.sling.commons.json  2.0.4-incubator                                             java-archive  GHSA-8j28-34qq-gmch  [1;31mCritical[0m    
+passwd                         1:4.8.1-1ubuntu5.20.04        1:4.8.1-1ubuntu5.20.04.5      deb           CVE-2023-4641        [0;32mLow[0m         
+passwd                         1:4.8.1-1ubuntu5.20.04                                      deb           CVE-2023-29383       [0;32mLow[0m         
+passwd                         1:4.8.1-1ubuntu5.20.04                                      deb           CVE-2013-4235        [0;32mLow[0m         
+perl                           5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.5             deb           CVE-2023-47038       [0;33mMedium[0m      
+perl                           5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.4             deb           CVE-2023-31484       [0;33mMedium[0m      
+perl                           5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.3             deb           CVE-2020-16156       [0;33mMedium[0m      
+perl-base                      5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.5             deb           CVE-2023-47038       [0;33mMedium[0m      
+perl-base                      5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.4             deb           CVE-2023-31484       [0;33mMedium[0m      
+perl-base                      5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.3             deb           CVE-2020-16156       [0;33mMedium[0m      
+perl-modules-5.30              5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.5             deb           CVE-2023-47038       [0;33mMedium[0m      
+perl-modules-5.30              5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.4             deb           CVE-2023-31484       [0;33mMedium[0m      
+perl-modules-5.30              5.30.0-9ubuntu0.2             5.30.0-9ubuntu0.3             deb           CVE-2020-16156       [0;33mMedium[0m      
+plexus-archiver                1.0-alpha-3                   4.8.0                         java-archive  GHSA-wh3p-fphp-9h2m  [0;31mHigh[0m        
+plexus-archiver                1.0-alpha-3                   3.6.0                         java-archive  GHSA-hcxq-x77q-3469  [0;33mMedium[0m      
+plexus-archiver                4.1.0                         4.8.0                         java-archive  GHSA-wh3p-fphp-9h2m  [0;31mHigh[0m        
+plexus-utils                   1.0.4                         3.0.16                        java-archive  GHSA-8vhq-qq4p-grq3  [1;31mCritical[0m    
+plexus-utils                   1.0.4                         3.0.24                        java-archive  GHSA-g6ph-x5wf-g337  [0;31mHigh[0m        
+plexus-utils                   1.0.4                         3.0.24                        java-archive  GHSA-jcwr-x25h-x5fh  [0;33mMedium[0m      
+plexus-utils                   1.5.15                        3.0.16                        java-archive  GHSA-8vhq-qq4p-grq3  [1;31mCritical[0m    
+plexus-utils                   1.5.15                        3.0.24                        java-archive  GHSA-g6ph-x5wf-g337  [0;31mHigh[0m        
+plexus-utils                   1.5.15                        3.0.24                        java-archive  GHSA-jcwr-x25h-x5fh  [0;33mMedium[0m      
+plexus-utils                   2.0.4                         3.0.16                        java-archive  GHSA-8vhq-qq4p-grq3  [1;31mCritical[0m    
+plexus-utils                   2.0.4                         3.0.24                        java-archive  GHSA-g6ph-x5wf-g337  [0;31mHigh[0m        
+plexus-utils                   2.0.4                         3.0.24                        java-archive  GHSA-jcwr-x25h-x5fh  [0;33mMedium[0m      
+procps                         2:3.3.16-1ubuntu2.1           2:3.3.16-1ubuntu2.4           deb           CVE-2023-4016        [0;32mLow[0m         
+rsync                          3.1.3-8                       3.1.3-8ubuntu0.4              deb           CVE-2022-37434       [0;33mMedium[0m      
+rsync                          3.1.3-8                       3.1.3-8ubuntu0.5              deb           CVE-2022-29154       [0;33mMedium[0m      
+rsync                          3.1.3-8                       3.1.3-8ubuntu0.3              deb           CVE-2018-25032       [0;33mMedium[0m      
+snakeyaml                      1.26                          2.0                           java-archive  GHSA-mjmj-j48q-9wg2  [0;31mHigh[0m        
+snakeyaml                      1.26                          1.31                          java-archive  GHSA-3mc7-4q67-w48m  [0;31mHigh[0m        
+snakeyaml                      1.26                          1.32                          java-archive  GHSA-w37g-rhq8-7m4j  [0;33mMedium[0m      
+snakeyaml                      1.26                          1.31                          java-archive  GHSA-hhhw-99gj-p3c3  [0;33mMedium[0m      
+snakeyaml                      1.26                          1.31                          java-archive  GHSA-c4r9-r8fh-9vj2  [0;33mMedium[0m      
+snakeyaml                      1.26                          1.32                          java-archive  GHSA-9w3m-gqgf-c4p9  [0;33mMedium[0m      
+snakeyaml                      1.26                          1.31                          java-archive  GHSA-98wm-3w3q-mw94  [0;33mMedium[0m      
+snappy                         0.4                           0.5                           java-archive  GHSA-8wh2-6qhj-h7j9  [0;33mMedium[0m      
+spring-beans                   5.2.7.RELEASE                 5.2.20.RELEASE                java-archive  GHSA-36p3-wjmg-h94x  [1;31mCritical[0m    
+spring-beans                   5.2.7.RELEASE                 5.2.22.RELEASE                java-archive  GHSA-hh26-6xwr-ggv7  [0;31mHigh[0m        
+spring-boot                    2.3.1.RELEASE                 2.7.18                        java-archive  GHSA-jjfh-589g-3hjx  [0;33mMedium[0m      
+spring-boot-autoconfigure      2.3.1.RELEASE                 2.5.15                        java-archive  GHSA-xf96-w227-r7c4  [0;31mHigh[0m        
+spring-boot-starter-web        2.3.1.RELEASE                 2.5.12                        java-archive  GHSA-36p3-wjmg-h94x  [1;31mCritical[0m    
+spring-context                 5.2.7.RELEASE                 5.2.21.RELEASE                java-archive  GHSA-g5mm-vmx4-3rg7  [0;31mHigh[0m        
+spring-core                    5.2.7.RELEASE                 5.2.18                        java-archive  GHSA-rfmp-97jj-h8m6  [0;33mMedium[0m      
+spring-core                    5.2.7.RELEASE                 5.2.19                        java-archive  GHSA-6gf2-pvqw-37ph  [0;33mMedium[0m      
+spring-expression              5.2.7.RELEASE                 5.2.24.RELEASE                java-archive  GHSA-wxqc-pxw9-g2p8  [0;31mHigh[0m        
+spring-expression              5.2.7.RELEASE                 5.2.23.RELEASE                java-archive  GHSA-564r-hj7v-mcr5  [0;33mMedium[0m      
+spring-expression              5.2.7.RELEASE                 5.2.20.RELEASE                java-archive  GHSA-558x-2xjg-6232  [0;33mMedium[0m      
+spring-web                     5.2.7.RELEASE                 6.0.0                         java-archive  GHSA-4wrc-f8pq-fpqp  [1;31mCritical[0m    
+spring-web                     5.2.7.RELEASE                 5.3.33                        java-archive  GHSA-hgjh-9rj2-g67j  [0;31mHigh[0m        
+spring-web                     5.2.7.RELEASE                 5.2.15                        java-archive  GHSA-gfwj-fwqj-fp3v  [0;31mHigh[0m        
+spring-web                     5.2.7.RELEASE                                               java-archive  GHSA-ccgv-vj62-xf9h  [0;31mHigh[0m        
+spring-web                     5.2.7.RELEASE                 5.3.34                        java-archive  GHSA-2wrp-6fg6-hmc5  [0;31mHigh[0m        
+spring-webmvc                  5.2.7.RELEASE                 5.2.20.RELEASE                java-archive  GHSA-36p3-wjmg-h94x  [1;31mCritical[0m    
+tar                            1.30+dfsg-7ubuntu0.20.04.1    1.30+dfsg-7ubuntu0.20.04.4    deb           CVE-2023-39804       [0;33mMedium[0m      
+tar                            1.30+dfsg-7ubuntu0.20.04.1    1.30+dfsg-7ubuntu0.20.04.3    deb           CVE-2022-48303       [0;33mMedium[0m      
+tar                            1.30+dfsg-7ubuntu0.20.04.1    1.30+dfsg-7ubuntu0.20.04.2    deb           CVE-2021-20193       [0;32mLow[0m         
+tomcat-embed-core              9.0.36                        9.0.68                        java-archive  GHSA-p22x-g9px-3945  [0;31mHigh[0m        
+tomcat-embed-core              9.0.36                        9.0.41                        java-archive  GHSA-jgwr-3qm3-26f3  [0;31mHigh[0m        
+tomcat-embed-core              9.0.36                        9.0.43                        java-archive  GHSA-j39c-c8hj-x4j3  [0;31mHigh[0m        
+tomcat-embed-core              9.0.36                        9.0.71                        java-archive  GHSA-hfrx-6qgj-fp6c  [0;31mHigh[0m        
+tomcat-embed-core              9.0.36                        9.0.83                        java-archive  GHSA-fccv-jmmp-qg76  [0;31mHigh[0m        
+tomcat-embed-core              9.0.36                        9.0.81                        java-archive  GHSA-r6j3-px5g-cq3x  [0;33mMedium[0m      
+tomcat-embed-core              9.0.36                        9.0.81                        java-archive  GHSA-qppj-fm5r-hxr3  [0;33mMedium[0m      
+tomcat-embed-core              9.0.36                        9.0.80                        java-archive  GHSA-q3mw-pvr8-9ggc  [0;33mMedium[0m      
+tomcat-embed-core              9.0.36                        9.0.81                        java-archive  GHSA-g8pj-r55q-5c2v  [0;33mMedium[0m      
+tomcat-embed-core              9.0.36                        9.0.86                        java-archive  GHSA-7w75-32cg-r6g2  [0;33mMedium[0m      
+tomcat-embed-core              9.0.36                        9.0.40                        java-archive  GHSA-2rvv-w9r2-rg7m  [0;33mMedium[0m      
+tomcat-embed-websocket         9.0.36                        9.0.86                        java-archive  GHSA-v682-8vv8-vpwr  [0;33mMedium[0m      
+util-linux                     2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.5             deb           CVE-2024-28085       [0;33mMedium[0m      
+util-linux                     2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3996        [0;33mMedium[0m      
+util-linux                     2.34-0.1ubuntu9.1             2.34-0.1ubuntu9.3             deb           CVE-2021-3995        [0;33mMedium[0m      
+x11-common                     1:7.7+19ubuntu14                                            deb           CVE-2023-5574        [0;32mLow[0m         
+xmlsec                         1.5.1                         2.1.7                         java-archive  GHSA-j8wc-gxx9-82hx  [0;31mHigh[0m        
+xmlsec                         1.5.1                         2.2.6                         java-archive  GHSA-xfrj-6vvc-3xm2  [0;33mMedium[0m      
+xmlsec                         1.5.1                         1.5.5                         java-archive  GHSA-r237-w2w6-jq3p  [0;33mMedium[0m      
+xmlsec                         1.5.1                         1.5.3                         java-archive  GHSA-8gwc-x7mg-7p7p  [0;33mMedium[0m      
+xmlsec                         1.5.1                         1.5.6                         java-archive  GHSA-4p4w-6h54-g885  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.11                        java-archive  GHSA-hf23-9pf7-388p  [1;31mCritical[0m    
+xstream                        1.4.10                        1.4.11                        java-archive  GHSA-f554-x222-wgf7  [1;31mCritical[0m    
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-xw4p-crpj-vjx2  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.19                        java-archive  GHSA-rmr5-cpv2-vgjf  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-qrx8-8545-4wg2  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-p8pq-r894-fm8f  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.14-jdk7                   java-archive  GHSA-mw36-7c6c-q4q2  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-j9h8-phrw-h4fh  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.20                        java-archive  GHSA-j563-grx4-pjpv  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-hph2-m3g5-xxv4  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-h7v4-7xg3-hxcc  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-g5w6-mrj7-75h2  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.20                        java-archive  GHSA-f8cc-g7j8-xxpm  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-cxfm-5m4g-x7xp  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-8jrj-525p-826v  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.17                        java-archive  GHSA-7chv-rrw6-w6fc  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-6w62-hx7r-mw68  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-64xx-cq4q-mf44  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.15                        java-archive  GHSA-4cch-wxpw-8p28  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-3ccq-5vw3-2p6x  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-2q8x-2p7f-574v  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-2p3x-qw9c-25hh  [0;31mHigh[0m        
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-qpfq-ph7r-qv6f  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.15                        java-archive  GHSA-jfvx-7wrx-43fh  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-hwpc-8xqv-jvj4  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-hvv8-336g-rx3m  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-hrcp-8f3q-4w2c  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-f6hm-88x3-mfjv  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-74cv-f58x-f9wf  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.18                        java-archive  GHSA-6wf9-jmg9-vxcc  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-59jw-jqf4-3wq3  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-56p8-3fh9-4cvq  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-4hrm-m67v-5cxr  [0;33mMedium[0m      
+xstream                        1.4.10                        1.4.16                        java-archive  GHSA-43gc-mjxg-gvrq  [0;33mMedium[0m      
+xz-utils                       5.2.4-1ubuntu1                5.2.4-1ubuntu1.1              deb           CVE-2022-1271        [0;33mMedium[0m      
+xz-utils                       5.2.4-1ubuntu1                                              deb           CVE-2020-22916       [0;33mMedium[0m      
+zlib1g                         1:1.2.11.dfsg-2ubuntu1.2      1:1.2.11.dfsg-2ubuntu1.5      deb           CVE-2022-37434       [0;33mMedium[0m      
+zlib1g                         1:1.2.11.dfsg-2ubuntu1.2      1:1.2.11.dfsg-2ubuntu1.3      deb           CVE-2018-25032       [0;33mMedium[0m      
+
+No misconfigurations found
+
+No secrets found
+
+Policy Results
+TYPE         	MESSAGE                                                                    
+Vulnerability	Found Critical software vulnerability: GHSA-2f88-5hg8-9x2x                	
+Vulnerability	Found Critical software vulnerability: GHSA-2qrg-x229-3v8q                	
+Vulnerability	Found Critical software vulnerability: GHSA-36p3-wjmg-h94x                	
+Vulnerability	Found Critical software vulnerability: GHSA-4wrc-f8pq-fpqp                	
+Vulnerability	Found Critical software vulnerability: GHSA-65fg-84f6-3jq3                	
+Vulnerability	Found Critical software vulnerability: GHSA-7x9j-7223-rg5m                	
+Vulnerability	Found Critical software vulnerability: GHSA-8j28-34qq-gmch                	
+Vulnerability	Found Critical software vulnerability: GHSA-8vhq-qq4p-grq3                	
+Vulnerability	Found Critical software vulnerability: GHSA-f554-x222-wgf7                	
+Vulnerability	Found Critical software vulnerability: GHSA-f7vh-qwp3-x37m                	
+Vulnerability	Found Critical software vulnerability: GHSA-fjq5-5j5f-mvxh                	
+Vulnerability	Found Critical software vulnerability: GHSA-hf23-9pf7-388p                	
+Vulnerability	Found Critical software vulnerability: GHSA-rhgr-952r-6p8q                	
+Vulnerability	Found High software vulnerability: CVE-2021-33910                         	
+Vulnerability	Found High software vulnerability: CVE-2021-3711                          	
+Vulnerability	Found High software vulnerability: CVE-2022-0778                          	
+Vulnerability	Found High software vulnerability: CVE-2022-24407                         	
+Vulnerability	Found High software vulnerability: CVE-2022-3515                          	
+Vulnerability	Found High software vulnerability: CVE-2023-0286                          	
+Vulnerability	Found High software vulnerability: GHSA-2p3x-qw9c-25hh                    	
+Vulnerability	Found High software vulnerability: GHSA-2q8x-2p7f-574v                    	
+Vulnerability	Found High software vulnerability: GHSA-2wrp-6fg6-hmc5                    	
+Vulnerability	Found High software vulnerability: GHSA-3ccq-5vw3-2p6x                    	
+Vulnerability	Found High software vulnerability: GHSA-3mc7-4q67-w48m                    	
+Vulnerability	Found High software vulnerability: GHSA-3x8x-79m2-3w2w                    	
+Vulnerability	Found High software vulnerability: GHSA-4cch-wxpw-8p28                    	
+Vulnerability	Found High software vulnerability: GHSA-4g9r-vxhx-9pgx                    	
+Vulnerability	Found High software vulnerability: GHSA-4pc7-vqv5-5r3v                    	
+Vulnerability	Found High software vulnerability: GHSA-53x6-4x5p-rrvv                    	
+Vulnerability	Found High software vulnerability: GHSA-57j2-w4cx-62h2                    	
+Vulnerability	Found High software vulnerability: GHSA-64xx-cq4q-mf44                    	
+Vulnerability	Found High software vulnerability: GHSA-6hgm-866r-3cjv                    	
+Vulnerability	Found High software vulnerability: GHSA-6w62-hx7r-mw68                    	
+Vulnerability	Found High software vulnerability: GHSA-7chv-rrw6-w6fc                    	
+Vulnerability	Found High software vulnerability: GHSA-7hfm-57qf-j43q                    	
+Vulnerability	Found High software vulnerability: GHSA-8jrj-525p-826v                    	
+Vulnerability	Found High software vulnerability: GHSA-ccgv-vj62-xf9h                    	
+Vulnerability	Found High software vulnerability: GHSA-crv7-7245-f45f                    	
+Vulnerability	Found High software vulnerability: GHSA-cxfm-5m4g-x7xp                    	
+Vulnerability	Found High software vulnerability: GHSA-f8cc-g7j8-xxpm                    	
+Vulnerability	Found High software vulnerability: GHSA-fccv-jmmp-qg76                    	
+Vulnerability	Found High software vulnerability: GHSA-fp5r-v3w9-4333                    	
+Vulnerability	Found High software vulnerability: GHSA-g5mm-vmx4-3rg7                    	
+Vulnerability	Found High software vulnerability: GHSA-g5w6-mrj7-75h2                    	
+Vulnerability	Found High software vulnerability: GHSA-g6ph-x5wf-g337                    	
+Vulnerability	Found High software vulnerability: GHSA-gfwj-fwqj-fp3v                    	
+Vulnerability	Found High software vulnerability: GHSA-h7v4-7xg3-hxcc                    	
+Vulnerability	Found High software vulnerability: GHSA-hfrx-6qgj-fp6c                    	
+Vulnerability	Found High software vulnerability: GHSA-hgjh-9rj2-g67j                    	
+Vulnerability	Found High software vulnerability: GHSA-hh26-6xwr-ggv7                    	
+Vulnerability	Found High software vulnerability: GHSA-hph2-m3g5-xxv4                    	
+Vulnerability	Found High software vulnerability: GHSA-j39c-c8hj-x4j3                    	
+Vulnerability	Found High software vulnerability: GHSA-j563-grx4-pjpv                    	
+Vulnerability	Found High software vulnerability: GHSA-j8wc-gxx9-82hx                    	
+Vulnerability	Found High software vulnerability: GHSA-j9h8-phrw-h4fh                    	
+Vulnerability	Found High software vulnerability: GHSA-jgwr-3qm3-26f3                    	
+Vulnerability	Found High software vulnerability: GHSA-jjjh-jjxp-wpff                    	
+Vulnerability	Found High software vulnerability: GHSA-m72m-mhq2-9p6c                    	
+Vulnerability	Found High software vulnerability: GHSA-mc84-pj99-q6hh                    	
+Vulnerability	Found High software vulnerability: GHSA-mjmj-j48q-9wg2                    	
+Vulnerability	Found High software vulnerability: GHSA-mw36-7c6c-q4q2                    	
+Vulnerability	Found High software vulnerability: GHSA-p22x-g9px-3945                    	
+Vulnerability	Found High software vulnerability: GHSA-p8pq-r894-fm8f                    	
+Vulnerability	Found High software vulnerability: GHSA-qrx8-8545-4wg2                    	
+Vulnerability	Found High software vulnerability: GHSA-rgv9-q543-rqg4                    	
+Vulnerability	Found High software vulnerability: GHSA-rmr5-cpv2-vgjf                    	
+Vulnerability	Found High software vulnerability: GHSA-vmq6-5m68-f53m                    	
+Vulnerability	Found High software vulnerability: GHSA-w9p3-5cr8-m3jj                    	
+Vulnerability	Found High software vulnerability: GHSA-wh3p-fphp-9h2m                    	
+Vulnerability	Found High software vulnerability: GHSA-wxqc-pxw9-g2p8                    	
+Vulnerability	Found High software vulnerability: GHSA-xf96-w227-r7c4                    	
+Vulnerability	Found High software vulnerability: GHSA-xqfj-vm6h-2x34                    	
+Vulnerability	Found High software vulnerability: GHSA-xw4p-crpj-vjx2                    	
+Docker       	4.1 Ensure a user for the container has been created (Scored) level 1     	
+Docker       	4.6 Ensure HEALTHCHECK instructions have been added to the container image	
+             	(Scored) level 1                                                          	
+Docker       	4.7 Ensure update/upgrade instructions are not used in the Dockerfile (Not	
+             	Scored) level 1                                                           	
+Docker       	4.9 Ensure COPY is used instead of ADD in Dockerfile (Not Scored) level 1 	
+
+Policy Passed = false
