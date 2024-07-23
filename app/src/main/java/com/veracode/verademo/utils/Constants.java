@@ -11,7 +11,7 @@ public class Constants {
 	private final String JDBC_USER = "blab";
 	/* START EXAMPLE VULNERABILITY */
 	private final String JDBC_PASSWORD = "z2^E6J4$;u;d";
-	/* END EXAMPLE VULNERABILITY */
+	/* END EXAMPLE VULNERABILITYsdbhj */
 
 	private String hostname;
 	private String port;
