@@ -6,13 +6,14 @@ on:
       - policy-scan
       - sandbox-scan
 
+env:
+  package_path: 'verascan'
+  package_name: 'verademo.war'
+
 jobs:
   Build:
     name: Veracode Package
     runs-on: ubuntu-latest
-    env:
-      package_path: 'verascan'
-      package_name: 'verademo.war'
     steps:
       - name: Checkout https://github.com/${{ github.repository }}@${{ github.ref }}
         uses: actions/checkout@v4
@@ -46,9 +47,6 @@ jobs:
       APPLICATION_NAME: Verademo-java-1
       ## POLICY_NAME: Policy-test-2
       POLICY_NAME: Veracode Recommended High
-    container:
-      image: veracode/pipeline-scan:latest
-      options: --user root
 
     steps:
       - name: Download
@@ -59,8 +57,13 @@ jobs:
 
       - name: Scan
         run: |
+          ls -lah
+          curl -O -L https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip
+          unzip unzip pipeline-scan-LATEST.zip
+          java -jar pipeline-scan.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" --file "${{env.package_name}}" -pn "${{ env.POLICY_NAME }}" --issue_details true
+
           ## zip -r -v ${{ vars.TARGET_FILE_PATH }} . -i '*.js' '*.html'
-          java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" -pn "${{ env.POLICY_NAME }}"
+          ## java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -pn "${{ env.POLICY_NAME }}"
           ## java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -rp "${{ env.POLICY_NAME }}" && java -jar /opt/veracode/pipeline-scan.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -f ${{ vars.TARGET_FILE_NAME }} -p "${{ env.APPLICATION_NAME }}" --policy_file "${{ env.POLICY_NAME }}.json"
         continue-on-error: true
 
