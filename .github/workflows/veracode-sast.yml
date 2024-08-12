@@ -53,7 +53,7 @@ jobs:
           POLICY_NAME: Veracode Recommended High
         run: |
           curl -O -L https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip
-          unzip -fo pipeline-scan-LATEST.zip
+          unzip -u pipeline-scan-LATEST.zip
           java -jar pipeline-scan.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" --file "${{env.package_name}}" -pn "${{ env.POLICY_NAME }}" --issue_details true --json_output true
         continue-on-error: true
 
@@ -62,7 +62,7 @@ jobs:
           POLICY_NAME: Policy-test-2
         run: |
           curl -O -L https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip
-          unzip -fo pipeline-scan-LATEST.zip
+          unzip -u pipeline-scan-LATEST.zip
           java -jar pipeline-scan.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" -rp "${{ env.POLICY_NAME }}"
           java -jar pipeline-scan.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" --file "${{env.package_name}}" --policy_file "${{ env.POLICY_NAME }}.json" --json_output true
         continue-on-error: true
