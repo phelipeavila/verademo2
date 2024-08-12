@@ -58,7 +58,7 @@ jobs:
         run: |
           ls -lah
           curl -O -L https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip
-          unzip unzip pipeline-scan-LATEST.zip
+          unzip pipeline-scan-LATEST.zip
           java -jar pipeline-scan.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" --file "${{env.package_name}}" -pn "${{ env.POLICY_NAME }}" --issue_details true
 
           ## zip -r -v ${{ vars.TARGET_FILE_PATH }} . -i '*.js' '*.html'
