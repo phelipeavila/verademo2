@@ -8,27 +8,35 @@ on:
 
 jobs:
   Build:
-    name: Maeven build
+    name: Veracode Package
     runs-on: ubuntu-latest
-    container:
-      image: maven:3.9.6-eclipse-temurin-17
-      options: --user root
+    env:
+      package_path: 'verascan'
+      package_name: 'verademo.war'
     steps:
       - name: Checkout https://github.com/${{ github.repository }}@${{ github.ref }}
         uses: actions/checkout@v4
         with:
           persist-credentials: false
       - name: Maeven build
+        env:
+          VERACODE_API_KEY_ID: ${{ secrets.VID }}
+          VERACODE_API_KEY_SECRET: ${{ secrets.VKEY }}
         run: |
-          mvn package -DskipTests -f app/pom.xml
+          curl -fsS https://tools.veracode.com/veracode-cli/install | sh
+          ./veracode package --source . --output ${{env.package_path}} --trust
+          
+          # mv ${{env.package_path}}/${{env.package_name}} ${{env.package_path}}/package
+          # https://docs.veracode.com/r/About_auto_packaging#packaged-artifacts
       - name: Upload artfacts
         uses: actions/upload-artifact@v4
         with:
           name: artfacts
-          path: ${{ vars.TARGET_FILE_PATH }}${{ vars.TARGET_FILE_NAME }}
+          path: ${{env.package_path}}/${{env.package_name}}
 
   Veracode-SAST-Pipeline:
-    if: github.ref == 'refs/heads/pipeline-scan'
+    if: false
+    # if: github.ref == 'refs/heads/pipeline-scan'
     name: Veracode SAST Pipeline
     runs-on: ubuntu-latest
     needs: [Build]
@@ -63,7 +71,8 @@ jobs:
           path: filtered_results.json
 
   Veracode-SAST-Policy:
-    if: github.ref == 'refs/heads/policy-scan'
+    if: false
+    # if: github.ref == 'refs/heads/policy-scan'
     name: Veracode SAST Policy
     runs-on: ubuntu-latest
     needs: [Build]
@@ -89,7 +98,8 @@ jobs:
         continue-on-error: true
 
   Veracode-SAST-Sandbox:
-    if: github.ref == 'refs/heads/sandbox-scan'
+    if: false
+    # if: github.ref == 'refs/heads/sandbox-scan'
     name: Veracode SAST Sandbox
     runs-on: ubuntu-latest
     needs: [Build]

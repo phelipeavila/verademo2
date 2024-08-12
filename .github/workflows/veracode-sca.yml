@@ -2,7 +2,7 @@ name: Veracode Demo - SCA - Pipeline
 on:
   push:
     branches:
-      - pipeline-scan
+      - none
 
 jobs:
   Veracode-SCA:
