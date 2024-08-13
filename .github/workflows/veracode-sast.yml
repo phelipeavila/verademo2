@@ -42,7 +42,7 @@ jobs:
     needs: [Build]
 
     steps:
-      - name: Download
+      - name: Download artfacts
         uses: actions/download-artifact@v4
         with:
           name: artfacts
@@ -50,11 +50,11 @@ jobs:
 
       - name: Scan with default policy
         env:
-          POLICY_NAME: Veracode Recommended High
+          POLICY_NAME: Veracode Recommended Medium
         run: |
           curl -O -L https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip
           unzip -u pipeline-scan-LATEST.zip
-          java -jar pipeline-scan.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" --file "${{env.package_name}}" --issue_details true --json_output true
+          java -jar pipeline-scan.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" --file "${{env.package_name}}" -pn "${{ env.POLICY_NAME }}" --issue_details true --json_output true
         continue-on-error: true
 
       - name: Scan with custom policy
@@ -73,35 +73,28 @@ jobs:
           name: filtered-results
           path: filtered_results.json
 
-  Veracode-SAST-Policy:
-    if: false
+  Veracode-Policy-Scan:
     # if: github.ref == 'refs/heads/policy-scan'
     name: Veracode SAST Policy
     runs-on: ubuntu-latest
     needs: [Build]
-    strategy:
-      fail-fast: true
-    env:
-      APPLICATION_NAME: Verademo-java-1
-    container:
-      image: veracode/api-wrapper-java:latest
-      options: --user root
 
     steps:
-      - name: Download
+      - name: Download artfacts
         uses: actions/download-artifact@v4
         with:
           name: artfacts
           path: .
 
       - name: Scan
+        env:
+          APPLICATION_NAME: Verademo-java-1
         run: |
-          ### zip -r -v ${{ vars.TARGET_FILE_PATH }} . -i '*.js' '*.html'
-          java -jar /opt/veracode/api-wrapper.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -action UploadAndScan -deleteincompletescan 2 -createprofile false -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath ${{ vars.TARGET_FILE_NAME }}
+          curl -L -o veracode-wrapper.jar https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/24.7.14.0/vosp-api-wrappers-java-24.7.14.0.jar
+          java -jar veracode-wrapper.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VID }}" -action UploadAndScan -deleteincompletescan 2 -createprofile true -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath "${{env.package_name}}"
         continue-on-error: true
 
-  Veracode-SAST-Sandbox:
-    if: false
+  Veracode-Sandbox-Scan:
     # if: github.ref == 'refs/heads/sandbox-scan'
     name: Veracode SAST Sandbox
     runs-on: ubuntu-latest
@@ -110,9 +103,6 @@ jobs:
       fail-fast: true
     env:
       APPLICATION_NAME: Verademo-java-1
-    container:
-      image: veracode/api-wrapper-java:latest
-      options: --user root
 
     steps:
       - name: Download
@@ -123,6 +113,6 @@ jobs:
 
       - name: Scan
         run: |
-          ### zip -r -v ${{ vars.TARGET_FILE_PATH }} . -i '*.js' '*.html'
-          java -jar /opt/veracode/api-wrapper.jar -vid "${{ secrets.VERACODE_ID }}" -vkey "${{ secrets.VERACODE_KEY }}" -action UploadAndScan -createsandbox true -sandboxname "${{ github.ref }}" -deleteincompletescan 2  -createprofile false -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath ${{ vars.TARGET_FILE_NAME }}
+          curl -L -o veracode-wrapper.jar https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/24.7.14.0/vosp-api-wrappers-java-24.7.14.0.jar
+          java -jar veracode-wrapper.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VID }}" -action UploadAndScan -deleteincompletescan 2 -createprofile true -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath "${{env.package_name}}" -createsandbox true -sandboxname "${{ github.ref }}" 
         continue-on-error: true
