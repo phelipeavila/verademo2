@@ -91,7 +91,7 @@ jobs:
           APPLICATION_NAME: Verademo-java-1
         run: |
           curl -L -o veracode-wrapper.jar https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/24.7.14.0/vosp-api-wrappers-java-24.7.14.0.jar
-          java -jar veracode-wrapper.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VID }}" -action UploadAndScan -deleteincompletescan 2 -createprofile true -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath "${{env.package_name}}"
+          java -jar veracode-wrapper.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" -action UploadAndScan -deleteincompletescan 2 -createprofile true -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath "${{env.package_name}}"
         continue-on-error: true
 
   Veracode-Sandbox-Scan:
@@ -114,5 +114,5 @@ jobs:
       - name: Scan
         run: |
           curl -L -o veracode-wrapper.jar https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/24.7.14.0/vosp-api-wrappers-java-24.7.14.0.jar
-          java -jar veracode-wrapper.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VID }}" -action UploadAndScan -deleteincompletescan 2 -createprofile true -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath "${{env.package_name}}" -createsandbox true -sandboxname "${{ github.ref }}" 
+          java -jar veracode-wrapper.jar -vid "${{ secrets.VID }}" -vkey "${{ secrets.VKEY }}" -action UploadAndScan -deleteincompletescan 2 -createprofile true -appname "${{ env.APPLICATION_NAME }}" -version "${{ github.run_id }}" -filepath "${{env.package_name}}" -createsandbox true -sandboxname "${{ github.ref }}" 
         continue-on-error: true
